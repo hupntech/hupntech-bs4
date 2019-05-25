@@ -1,15 +1,35 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#113045",
-        "titleBar.activeBackground": "#184361",
-        "titleBar.activeForeground": "#F7FBFD"
-    },
-    "liveSassCompile.settings.formats": [
-        // This is Default.
-        {
-            "format": "compressed",
-            "extensionName": ".min.css",
-            "savePath": "/assets/css"
-        }
-    ],
+    "folders": [],
+    "settings": {
+        "workbench.colorCustomizations": {
+            "activityBar.background": "#113045",
+            "titleBar.activeBackground": "#184361",
+            "titleBar.activeForeground": "#F7FBFD"
+        },
+        "liveServer.settings.CustomBrowser": "chrome",
+        "liveServer.settings.donotVerifyTags": true,
+        "liveServer.settings.donotShowInfoMsg": true,
+        "liveSassCompile.settings.formats": [
+            {
+                "format": "compressed",
+                "extensionName": ".min.css",
+                "savePath": "/assets/css",
+            }
+        ],
+        // Mainly for static files
+        "liveServer.settings.useWebExt": true,
+        // This means that you change your real URL (current PHP url) 
+        // to another URL (which Live Sever starts).
+        "liveServer.settings.proxy": {
+            "enable": true, //   i. enabled
+            "baseUri": "/", //  ii. workspace
+            "proxyUri": "http://localhost:80/" // iii. actual address
+        },
+        // "liveSassCompile.settings.includeItems": [
+        // 	"/scss/site.scss",
+        // ],
+        "liveSassCompile.settings.generateMap": false,
+        "liveSassCompile.settings.showOutputWindow": false,
+        "liveServer.settings.multiRootWorkspaceName": "hupntech-new-bootstrap",
+    }
 }
