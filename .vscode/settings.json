@@ -1,6 +1,4 @@
 {
-    "folders": [],
-    "settings": {
         "workbench.colorCustomizations": {
             "activityBar.background": "#113045",
             "titleBar.activeBackground": "#184361",
@@ -31,5 +29,4 @@
         "liveSassCompile.settings.generateMap": false,
         "liveSassCompile.settings.showOutputWindow": false,
         "liveServer.settings.multiRootWorkspaceName": "hupntech-new-bootstrap",
-    }
 }
